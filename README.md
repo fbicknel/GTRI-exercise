@@ -13,3 +13,10 @@ My intention is to turn in the assignment as the Git repository where this `READ
 
 There will be a simple Bash script that can be used to quickly build the Docker container and run it. It won't be very rigorous, however.
 
+## Python
+
+Python 3.7.4 (as of this writing) is installed in a virtualenv in ${PROJECT_ROOT}/envs. To activate:
+
+    $ source ${PROJECT_ROOT}/envs/bin/activate
+
+The Python script supplied (`upload_docs.py`) will be written so that activation should not be necessary.
